@@ -1,0 +1,59 @@
+﻿{
+    "output_file": "settings.json",
+    "enableDidYouKnow": {
+        "type": "checkbox",
+        "value": false,
+        "label": "Enable DidYouKnow",
+        "tooltip": "Is DidYouKnow enabled?",
+        "group": "General"
+    },
+    "gameCommand": {
+        "type": "textbox",
+        "value": "!diduknow",
+        "label": "FollowerTimeInMonth * this value",
+        "tooltip": "FollowerTimeInMonth * this value",
+        "group": "General"
+    },
+    "startGameCosts": {
+        "type": "numberbox",
+        "value": 100,
+        "label": "startGameCosts",
+        "tooltip": "How much costs a round for user",
+        "group": "General"
+    },
+    "winnerPrice": {
+        "type": "numberbox",
+        "value": 50,
+        "label": "winnerPrice",
+        "tooltip": "What can user2 win if he is the nearest one?",
+        "group": "General"
+    },
+    "winnerFullPrice": {
+        "type": "numberbox",
+        "value": 100,
+        "label": "winnerFullPrice",
+        "tooltip": "What can user2 win if he is exact correct?",
+        "group": "General"
+    },
+    "userCooldownInSeconds": {
+        "type": "numberbox",
+        "value": "100",
+        "label": "userCooldownInSeconds",
+        "tooltip": "userCooldownInSeconds",
+        "group": "General"
+    },
+    "languageStartChat": {
+        "type": "textbox",
+        "value": "Von einer Skala zwischen 0 und 100: {0} 0={1} || 100={2}",
+        "label": "languageStartChat",
+        "tooltip": "languageStartChat",
+        "group": "Language"
+    },
+    "languageStartWhisper": {
+        "type": "textbox",
+        "value": "{0}. Bitte beantworte die Frage mit der Skala '{1} 0-100'. 0={2} || 100={3}",
+        "label": "languageStartWhisper",
+        "tooltip": "languageStartWhisper",
+        "group": "Language"
+    }
+}

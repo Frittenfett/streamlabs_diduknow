@@ -3,594 +3,594 @@
             "question": "Wie sportlich bist du?",
             "left": "Schwitzen? Wie uncool…",
             "right": "Gewinner der Goldmedaille!",
-            "questionChat": "Wie sportlich ist {0}?"
+            "questionChat": "Wie sportlich ist @{0}?"
         },
         {
             "question": "Wie fürsorglich bist du?",
             "left": "Mitgefühl? Pah, Humbug!",
             "right": "Jeden Tag eine gute Tat!",
-            "questionChat": "Wie fürsorglich ist {0}?"
+            "questionChat": "Wie fürsorglich ist @{0}?"
         },
         {
             "question": "Beeinflussen dich Schmeicheleien?",
             "left": "Schmeicheleien sind schmierig!",
             "right": "Schmeicheleien öffnen jede Tür!",
-            "questionChat": "Beeinflussen {0} Schmeicheleien?"
+            "questionChat": "Beeinflussen @{0} Schmeicheleien?"
         },
         {
             "question": "Verfolgst du die neuesten Trends?",
             "left": "Individualismus ist besser.",
             "right": "Trendsetter par excellence!",
-            "questionChat": "Verfolgt {0} die neuesten Trends?"
+            "questionChat": "Verfolgt @{0} die neuesten Trends?"
         },
         {
             "question": "Wie schnell kannst du rennen?",
             "left": "Wie eine Schildkröte.",
             "right": "Wie ein Gepard.",
-            "questionChat": "Wie schnell kann {0} rennen?"
+            "questionChat": "Wie schnell kann @{0} rennen?"
         },
         {
             "question": "Wie reif bist du?",
             "left": "Total grün hinter den Ohren…",
             "right": "Reif wie ein Schweizer Käse!",
-            "questionChat": "Wie reif ist {0}?"
+            "questionChat": "Wie reif ist @{0}?"
         },
         {
             "question": "Bist du eine Naschkatze?",
             "left": "Süßigkeiten? Igitt!",
             "right": "Sirup statt Blut im Körper.",
-            "questionChat": "Ist {0} eine Naschkatze?"
+            "questionChat": "Ist @{0} eine Naschkatze?"
         },
         {
             "question": "Bist du gut im Ratschläge erteilen?",
             "left": "Viel Blabla, wenig dahinter",
             "right": "Hilfe für alle Lebenslagen.",
-            "questionChat": "Ist {0} gut im Ratschläge erteilen?"
+            "questionChat": "Ist @{0} gut im Ratschläge erteilen?"
         },
         {
             "question": "Wie häufig machst du dir Sorgen?",
             "left": "Sorgenfalten im ganzen Gesicht!",
             "right": "Sorgen? Wie schreibt man das?",
-            "questionChat": "Wie häufig macht {0} sich Sorgen?"
+            "questionChat": "Wie häufig macht @{0} sich Sorgen?"
         },
         {
             "question": "Wie modebewusst bist du?",
             "left": "Mode? Keine Zeit für sowas!",
             "right": "V.I.P auf jeder Modenschau",
-            "questionChat": "Wie modebewusst ist {0}?"
+            "questionChat": "Wie modebewusst ist @{0}?"
         },
         {
             "question": "Wie gut ist dein Gedächtnis?",
             "left": "Wie war noch gleich die Frage?",
             "right": "Nahezu fotografisch!",
-            "questionChat": "Wie gut ist das Gedächtnis von {0}?"
+            "questionChat": "Wie gut ist das Gedächtnis von @{0}?"
         },
         {
             "question": "Wie schnell weinst du?",
             "left": "Gefühllos wie ein Amboss.",
             "right": "Die reinste Heulsuse!",
-            "questionChat": "Wie schnell weint {0}?"
+            "questionChat": "Wie schnell weint @{0}?"
         },
         {
             "question": "Wie oft am Tag entschuldigst du dich?",
             "left": "Gar nicht…",
             "right": "Mehr als 100 Mal!",
-            "questionChat": "Wie oft am Tag entschuldigt sich {0}?"
+            "questionChat": "Wie oft am Tag entschuldigt sich @{0}?"
         },
         {
             "question": "Bist du tierlieb?",
             "left": "Kann nur mit Zweibeinern.",
             "right": "Tiere sind die besseren Menschen!",
-            "questionChat": "Ist {0} tierlieb?"
+            "questionChat": "Ist @{0} tierlieb?"
         },
         {
             "question": "Bist du ein Frühaufsteher?",
             "left": "Morgen gehören verboten!",
             "right": "Morgenstund hat Gold im Mund!",
-            "questionChat": "Ist {0} ein Frühaufsteher?"
+            "questionChat": "Ist @{0} ein Frühaufsteher?"
         },
         {
             "question": "Wie geizig bist du?",
             "left": "Geld ist wie Konfetti!",
             "right": "Verheiratet mit dem Sparschwein.",
-            "questionChat": "Wie geizig ist {0}?"
+            "questionChat": "Wie geizig ist @{0}?"
         },
         {
             "question": "Wie pünktlich bist du?",
             "left": "Keine Uhr am Handgelenk.",
             "right": "Lieber zu früh als zu spät.",
-            "questionChat": "Wie pünktlich ist {0}?"
+            "questionChat": "Wie pünktlich ist @{0}?"
         },
         {
             "question": "Wie gesund lebst du?",
             "left": "Süßigkeiten und fettes Essen.",
             "right": "Obst, Gemüse und viiiel Sport!",
-            "questionChat": "Wie gesund lebt {0}?"
+            "questionChat": "Wie gesund lebt @{0}?"
         },
         {
             "question": "Wie gerne planst du etwas?",
             "left": "Spontanität heißt das Zauberwort!",
             "right": "Ohne Planung läuft gar nichts!",
-            "questionChat": "Wie gerne plant {0} etwas?"
+            "questionChat": "Wie gerne plant @{0} etwas?"
         },
         {
             "question": "Bist du ein Filmkenner?",
             "left": "Filme? Bücher sind viel besser.",
             "right": "Ein wandelndes Filmlexikon.",
-            "questionChat": "Ist {0} ein Filmkenner?"
+            "questionChat": "Ist @{0} ein Filmkenner?"
         },
         {
             "question": "Kannst du gut mit Zahlen umgehen?",
             "left": "1 + 2 = 5… Stimmt's?",
             "right": "Der reinste Taschenrechner!",
-            "questionChat": "Kann {0} gut mit Zahlen umgehen?"
+            "questionChat": "Kann @{0} gut mit Zahlen umgehen?"
         },
         {
             "question": "Wie stark bist du?",
             "left": "Schwach wie eine Fliege.",
             "right": "Stark wie ein Wrestler.",
-            "questionChat": "Wie stark ist {0}?"
+            "questionChat": "Wie stark ist @{0}?"
         },
         {
             "question": "Wie gut kannst du buchstabieren?",
             "left": "Nischt soh guut",
             "right": "E-X-Z-E-L-L-E-N-T",
-            "questionChat": "Wie gut kann {0} buchstabieren?"
+            "questionChat": "Wie gut kann @{0} buchstabieren?"
         },
         {
             "question": "Stehst du gerne im Mittelpunkt?",
             "left": "Pssst, nicht so laut…",
             "right": "Vorhang auf, Bühne frei!",
-            "questionChat": "Steht {0} gerne im Mittelpunkt?"
+            "questionChat": "Steht @{0} gerne im Mittelpunkt?"
         },
         {
             "question": "Wie verrückt bist du?",
             "left": "Zählt Topflappen häkeln auch?",
             "right": "Düdeldüüü! Gack! Miep! Fiiiep! Wuff!",
-            "questionChat": "Wie verrückt ist {0}?"
+            "questionChat": "Wie verrückt ist @{0}?"
         },
         {
             "question": "Wie gut warst du in der Schule?",
             "left": "Lehrer-Albtraum",
             "right": "Lehrer-Liebling",
-            "questionChat": "Wie gut war {0} in der Schule?"
+            "questionChat": "Wie gut war @{0} in der Schule?"
         },
         {
             "question": "Wie intensiv verfolgst du Nachrichten?",
             "left": "Wohnsitz: Hinter dem Mond.",
             "right": "Aktueller als jede Tageszeitung.",
-            "questionChat": "Wie intensiv verfolgt {0} Nachrichten?"
+            "questionChat": "Wie intensiv verfolgt @{0} Nachrichten?"
         },
         {
             "question": "Wie höflich bist du?",
             "left": "Was geht'n euch das an, häh?",
             "right": "Wie schön, dass ihr Interesse zeigt!",
-            "questionChat": "Wie höflich ist {0}?"
+            "questionChat": "Wie höflich ist @{0}?"
         },
         {
             "question": "Wie wetteifernd bist du?",
             "left": "Kräfte messen ist doof.",
             "right": "Wettkämpfe sind was Tolles!",
-            "questionChat": "Wie wetteifernd ist {0}?"
+            "questionChat": "Wie wetteifernd ist @{0}?"
         },
         {
             "question": "Kennst du dich gut mit Technik aus?",
             "left": "Technik-Hofnarr",
             "right": "Technik-Magier",
-            "questionChat": "Kennt sich {0} gut mit Technik aus?"
+            "questionChat": "Kennt sich @{0} gut mit Technik aus?"
         },
         {
             "question": "Wie euphorisch bist du?",
             "left": "Ein trauriger Clown…",
             "right": "Der reinste Cheerleader!",
-            "questionChat": "Wie euphorisch ist {0}?"
+            "questionChat": "Wie euphorisch ist @{0}?"
         },
         {
             "question": "Wie gut ist dein Orientierungssinn?",
             "left": "Wo… wo bin ich?",
             "right": "Karten sind was für Anfänger!",
-            "questionChat": "Wie gut ist der Orientierungssinn von {0}?"
+            "questionChat": "Wie gut ist der Orientierungssinn von @{0}?"
         },
         {
             "question": "Könntest du in der Wildnis überleben?",
             "left": "Gibt es dort W-LAN?",
             "right": "Tarzan war ein großes Vorbild!",
-            "questionChat": "Könnte {0} in der Wildnis überleben?"
+            "questionChat": "Könnte @{0} in der Wildnis überleben?"
         },
         {
             "question": "Wie ehrgeizig bist du?",
             "left": "Bis zum Kühlschrank gehen.",
             "right": "Bis an die eigenen Grenzen gehen?",
-            "questionChat": "Wie ehrgeizig ist {0}?"
+            "questionChat": "Wie ehrgeizig ist @{0}?"
         },
         {
             "question": "Wie gut kannst du singen?",
             "left": "Hunde fangen an zu jaulen.",
             "right": "Seit Monaten in den Charts!",
-            "questionChat": "Wie gut kann {0} singen?"
+            "questionChat": "Wie gut kann @{0} singen?"
         },
         {
             "question": "Wie viel Hitze verträgst du?",
             "left": "Am Nordpol zu Hause.",
             "right": "Je heißer, desto besser!",
-            "questionChat": "Wie viel Hitze verträgt {0}?"
+            "questionChat": "Wie viel Hitze verträgt @{0}?"
         },
         {
             "question": "Kannst du ein Geheimnis behalten?",
             "left": "Die reinste Plaudertasche!",
             "right": "Kann schweigen wie ein Grab.",
-            "questionChat": "Kann {0} ein Geheimnis behalten?"
+            "questionChat": "Kann @{0} ein Geheimnis behalten?"
         },
         {
             "question": "Wie neugierig bist du?",
             "left": "Kein Interesse an Nichts.",
             "right": "Neugierig bis zum Gehtnichtmehr.",
-            "questionChat": "Wie neugierig ist {0}?"
+            "questionChat": "Wie neugierig ist @{0}?"
         },
         {
             "question": "Wie musikalisch bist du?",
             "left": "Für Topfschlagen gerade geeignet.",
             "right": "Virtuose auf jedem Instrument.",
-            "questionChat": "Wie musikalisch ist {0}?"
+            "questionChat": "Wie musikalisch ist @{0}?"
         },
         {
             "question": "Wie ehrlich bist du?",
             "left": "Lügen, bis sich die Balken biegen!",
             "right": "Ehrlich währt am längsten!",
-            "questionChat": "Wie ehrlich ist {0}?"
+            "questionChat": "Wie ehrlich ist @{0}?"
         },
         {
             "question": "Wie gut kannst du tanzen?",
             "left": "Zwei linke Füße!",
             "right": "Wie auf Wolken…",
-            "questionChat": "Wie gut kann {0} tanzen?"
+            "questionChat": "Wie gut kann @{0} tanzen?"
         },
         {
             "question": "Bist du temperamentvoll?",
             "left": "Kalt wie ein Eisberg.",
             "right": "Heiß wie ein Vulkan.",
-            "questionChat": "Ist {0} temperamentvoll?"
+            "questionChat": "Ist @{0} temperamentvoll?"
         },
         {
             "question": "Wie selbstsicher bist du?",
             "left": "Auf der Suche nach Bestätigung.",
             "right": "Durch nichts zu verunsichern.",
-            "questionChat": "Wie selbstsicher ist {0}?"
+            "questionChat": "Wie selbstsicher ist @{0}?"
         },
         {
             "question": "Wie häufig lächelst du?",
             "left": "Ein Mal pro Schaltjahr.",
             "right": "Rund um die Uhr!",
-            "questionChat": "Wie häufig lächelt {0}?"
+            "questionChat": "Wie häufig lächelt @{0}?"
         },
         {
             "question": "Bist du ein Angsthase?",
             "left": "Hilfe! Ein Teddybär!",
             "right": "Hobby: Monster im Dunkeln jagen.",
-            "questionChat": "Ist {0} ein Angsthase?"
+            "questionChat": "Ist @{0} ein Angsthase?"
         },
         {
             "question": "Wie lange bleibst du nachts auf?",
             "left": "Nach dem Abendbrot ins Bett.",
             "right": "Topfit bis in die Morgenstunden.",
-            "questionChat": "Wie lange bleibt {0} nachts auf?"
+            "questionChat": "Wie lange bleibt @{0} nachts auf?"
         },
         {
             "question": "Wie leicht bist du zu beeindrucken?",
             "left": "Kein Stück!",
             "right": "Oooh! Boah! Wow!",
-            "questionChat": "Wie leicht ist {0} zu beeindrucken?"
+            "questionChat": "Wie leicht ist @{0} zu beeindrucken?"
         },
         {
             "question": "Wie häufig nutzt du soziale Medien?",
             "left": "Sinnlose Zeitverschwendung!",
             "right": "Immer und überall online, sogar jetzt!",
-            "questionChat": "Wie häufig nutzt {0} soziale Medien?"
+            "questionChat": "Wie häufig nutzt @{0} soziale Medien?"
         },
         {
             "question": "Wie gesprächig bist du?",
             "left": "…",
             "right": "Bla bla bla, plapper-plapper…",
-            "questionChat": "Wie gesprächig ist {0}?"
+            "questionChat": "Wie gesprächig ist @{0}?"
         },
         {
             "question": "Wie groß ist dein Wortschatz?",
             "left": "WortWAS?",
             "right": "Exorbitant!",
-            "questionChat": "Wie groß ist der Wortschatz von {0}?"
+            "questionChat": "Wie groß ist der Wortschatz von @{0}?"
         },
         {
             "question": "Magst du scharfes Essen?",
             "left": "Selbst Wasser reizt den Magen!",
             "right": "Chilischoten zum Frühstück.",
-            "questionChat": "Mag {0} scharfes Essen?"
+            "questionChat": "Mag @{0} scharfes Essen?"
         },
         {
             "question": "Wie unabhängig bist du?",
             "left": "Naseputzen ohne Hilfe? Unmöglich!",
             "right": "Hausbau im Alleingang? Na klar!",
-            "questionChat": "Wie unabhängig ist {0}?"
+            "questionChat": "Wie unabhängig ist @{0}?"
         },
         {
             "question": "Wie ordentlich bist du?",
             "left": "Abenteuerurlaub im eigenen Haus.",
             "right": "Vom Fußboden essen, kein Thema?",
-            "questionChat": "Wie ordentlich ist {0}?"
+            "questionChat": "Wie ordentlich ist @{0}?"
         },
         {
             "question": "Wie herrisch bist du?",
             "left": "Sanft wie ein Lamm.",
             "right": "Der reinste Tyrann.",
-            "questionChat": "Wie herrisch ist {0}?"
+            "questionChat": "Wie herrisch ist @{0}?"
         },
         {
             "question": "Wie lange schläfst du im Durchschnitt?",
             "left": "Wach rund um die Uhr.",
             "right": "Mehr als 12 Stunden.",
-            "questionChat": "Wie lange schläft {0} im Durchschnitt?"
+            "questionChat": "Wie lange schläft @{0} im Durchschnitt?"
         },
         {
             "question": "Wie gut beherrschst du Sprachen?",
             "left": "Wörter… nix… gut sein…",
             "right": "Très bien!",
-            "questionChat": "Wie gut beherrscht {0} Sprachen?"
+            "questionChat": "Wie gut beherrscht @{0} Sprachen?"
         },
         {
             "question": "Bist du sehr leichgläubig?",
             "left": "Nicht aufs Glatteis zu führen.",
             "right": "Die Erde ist eine Scheibe? Okay!",
-            "questionChat": "Ist {0} sehr leichtgläubig?"
+            "questionChat": "Ist @{0} sehr leichtgläubig?"
         },
         {
             "question": "Glaubst du an Horoskope?",
             "left": "Ewiger Skeptiker",
             "right": "Begeisteter Hobby-Astrologe",
-            "questionChat": "Glaubt {0} an Horoskope?"
+            "questionChat": "Glaubt @{0} an Horoskope?"
         },
         {
             "question": "Wie naturverbunden bist du?",
             "left": "Ständig am Wandern.",
             "right": "Allergisch gegen Fauna und Flora.",
-            "questionChat": "Wie naturverbunden ist {0}?"
+            "questionChat": "Wie naturverbunden ist @{0}?"
         },
         {
             "question": "Bist du ein schlechter Verlierer?",
             "left": "Bissspuren im Controller.",
             "right": "Ist doch nur ein Spiel!",
-            "questionChat": "Ist {0} ein schlechter Verlierer?"
+            "questionChat": "Ist @{0} ein schlechter Verlierer?"
         },
         {
             "question": "Wie leicht lässt du dich verunsichern?",
             "left": "Konzentriert bei der Sache.",
             "right": "Guck mal, dort drüben!",
-            "questionChat": "Wie leicht lässt {0} sich verunsichern?"
+            "questionChat": "Wie leicht lässt @{0} sich verunsichern?"
         },
         {
             "question": "Wie romantisch bist du?",
             "left": "Jahrestagsfeier im Schnellimbiss.",
             "right": "Kerzenschein und Rosenblätter.",
-            "questionChat": "Wie romantisch ist {0}?"
+            "questionChat": "Wie romantisch ist @{0}?"
         },
         {
             "question": "Wie schnell triffst du Entscheidungen?",
             "left": "Hmm… Also… Puh… Mal überlegen…",
             "right": "Sofort!",
-            "questionChat": "Wie schnell trifft {0} Entscheidungen?"
+            "questionChat": "Wie schnell trifft @{0} Entscheidungen?"
         },
         {
             "question": "Bist du häufig mürrisch?",
             "left": "Stets froh und gut gelaunt",
             "right": "Nonstop am Nörgeln…",
-            "questionChat": "Ist {0} häufig mürrisch?"
+            "questionChat": "Ist @{0} häufig mürrisch?"
         },
         {
             "question": "Kochst du gerne?",
             "left": "Fertiggerichte, sonst nichts.",
             "right": "Quasi mit dem Herd verwachsen.",
-            "questionChat": "Kocht {0} gerne?"
+            "questionChat": "Kocht @{0} gerne?"
         },
         {
             "question": "Isst du gerne Gemüse?",
             "left": "Igitt!",
             "right": "Mindestens ein Mal am Tag.",
-            "questionChat": "Isst {0} gerne Gemüse?"
+            "questionChat": "Isst @{0} gerne Gemüse?"
         },
         {
             "question": "Wie hochnäsig bist du?",
             "left": "Normal und bodenständig.",
             "right": "Abgehoben und weltfremd.",
-            "questionChat": "Wie hochnäsig ist {0}?"
+            "questionChat": "Wie hochnäsig ist @{0}?"
         },
         {
             "question": "Wie kitzelig bist du?",
             "left": "Am ganzen Körper taub…",
             "right": "Anfassen verboten!",
-            "questionChat": "Wie kitzelig ist {0}?"
+            "questionChat": "Wie kitzelig ist @{0}?"
         },
         {
             "question": "Wie künstlerisch begabt bist du?",
             "left": "Schnittwunden beim Origami.",
             "right": "Besser als Picasso!",
-            "questionChat": "Wie künstlerisch begabt ist {0}?"
+            "questionChat": "Wie künstlerisch begabt ist @{0}?"
         },
         {
             "question": "Hast du große Angst vor Höhe?",
             "left": "Plateauschuhe? Auf keinen Fall!",
             "right": "Je höher, desto besser!",
-            "questionChat": "Hat {0} große Angst vor Höhe?"
+            "questionChat": "Hat @{0} große Angst vor Höhe?"
         },
         {
             "question": "Bist du ein guter Zuhörer?",
             "left": "Hm? Was hast du gefragt?",
             "right": "Der Allerbeste!",
-            "questionChat": "Ist {0} ein guter Zuhörer?"
+            "questionChat": "Ist @{0} ein guter Zuhörer?"
         },
         {
             "question": "Magst du Klatsch und Tratsch?",
             "left": "Klatschzeitungen, ab zum Altpapier!",
             "right": "Immer auf dem Laufenden.",
-            "questionChat": "Mag {0} Klatsch und Tratsch?"
+            "questionChat": "Mag @{0} Klatsch und Tratsch?"
         },
         {
             "question": "Wie überzeugend bist du?",
             "left": "Stotteranfälle bei Diskussionen.",
             "right": "Eistruhenverkäufer am Südpol.",
-            "questionChat": "Wie überzeugend ist {0}?"
+            "questionChat": "Wie überzeugend ist @{0}?"
         },
         {
             "question": "Hast du ein Herz für Käfer?",
             "left": "Wo ist das Insektenspray?",
             "right": "Entomologe aus Leidenschaft.",
-            "questionChat": "Hat {0} ein Herz für Käfer?"
+            "questionChat": "Hat @{0} ein Herz für Käfer?"
         },
         {
             "question": "Wie häufig siehst du in den Spiegel?",
             "left": "Glücklich auch ohne Spiegel.",
             "right": "Spiegel im ganzen Haus verteilt.",
-            "questionChat": "Wie häufig sieht {0} in den Spiegel?"
+            "questionChat": "Wie häufig sieht @{0} in den Spiegel?"
         },
         {
             "question": "Wie sehr magst du Schokolade?",
             "left": "Allergisch gegen Kakao.",
             "right": "Besitzer von 12 Schokobrunnen.",
-            "questionChat": "Wie sehr mag {0} Schokolade?"
+            "questionChat": "Wie sehr mag @{0} Schokolade?"
         },
         {
             "question": "Wie teamfähig bist du?",
             "left": "Einsamer Wolf…",
             "right": "Rudelführer!",
-            "questionChat": "Wie teamfähig ist {0}?"
+            "questionChat": "Wie teamfähig ist @{0}?"
         },
         {
             "question": "Wie aggressiv bist du?",
             "left": "Scheue Maus…",
             "right": "Wilder Gorilla!",
-            "questionChat": "Wie aggressiv ist {0}?"
+            "questionChat": "Wie aggressiv ist @{0}?"
         },
         {
             "question": "Wie schnell schließt du Freundschaften?",
             "left": "Einzelgänger aus Überzeugung.",
             "right": "Beliebt bei allen!",
-            "questionChat": "Wie schnell schließt {0} Freundschaften?"
+            "questionChat": "Wie schnell schließt @{0} Freundschaften?"
         },
         {
             "question": "Wie sehr magst du Menschenmassen?",
             "left": "Feuchte Hände, Schweißausbruch!",
             "right": "Ein Bad in der Menge? Toll!",
-            "questionChat": "Wie sehr mag {0} Menschenmassen?"
+            "questionChat": "Wie sehr mag @{0} Menschenmassen?"
         },
         {
             "question": "Wie sarkastisch bist du?",
             "left": "Nicht im Geringsten.",
             "right": "Sarkastisch bis über beide Ohren.",
-            "questionChat": "Wie sarkastisch ist {0}?"
+            "questionChat": "Wie sarkastisch ist @{0}?"
         },
         {
             "question": "Wie ruhig bleibst du unter Stress?",
             "left": "Aufgescheuchtes Huhn…",
             "right": "Fels in der Brandung!",
-            "questionChat": "Wie ruhig bleibt {0} unter Stress?"
+            "questionChat": "Wie ruhig bleibt @{0} unter Stress?"
         },
         {
             "question": "Wie groß ist dein Ego?",
             "left": "Passt in jede Hosentasche.",
             "right": "Zu gigantisch für dieses Zimmer.",
-            "questionChat": "Wie groß ist das Ego von {0}?"
+            "questionChat": "Wie groß ist das Ego von @{0}?"
         },
         {
             "question": "Bist du ein talentierter Schauspieler?",
             "left": "Buuuh! Runter von der Bühne!",
             "right": "Oscar-verdächtig!",
-            "questionChat": "Ist {0} ein talentierter Schauspieler?"
+            "questionChat": "Ist @{0} ein talentierter Schauspieler?"
         },
         {
             "question": "Wie schnell verzeihst du?",
             "left": "Einmal verscherzt, Pech gehabt!",
             "right": "Jeder verdient eine 2. Chance!",
-            "questionChat": "Wie schnell verzeiht {0}?"
+            "questionChat": "Wie schnell verzeiht @{0}?"
         },
         {
             "question": "Wie gut ist dein Allgemeinwissen?",
             "left": "Groschenroman…",
             "right": "Wandelnde Enzyklopädie!",
-            "questionChat": "Wie gut ist das Allgemeinwissen von {0}?"
+            "questionChat": "Wie gut ist das Allgemeinwissen von @{0}?"
         },
         {
             "question": "Glaubst du an Geister?",
             "left": "Realist durch und durch.",
             "right": "Heißer Draht zum Jenseits.",
-            "questionChat": "Glaubt {0} an Geister?"
+            "questionChat": "Glaubt @{0} an Geister?"
         },
         {
             "question": "Wie abergläubisch bist du?",
             "left": "Alles nur doofes Geschwätz!",
             "right": "Schwarze Katze von links? Oje…",
-            "questionChat": "Wie abergläubisch ist {0}?"
+            "questionChat": "Wie abergläubisch ist @{0}?"
         },
         {
             "question": "Wie anmutig bist du?",
             "left": "Ein Hundewelpe…",
             "right": "Eine Ballerina!",
-            "questionChat": "Wie anmutig ist {0}?"
+            "questionChat": "Wie anmutig ist @{0}?"
         },
         {
             "question": "Wie beweglich bist du?",
             "left": "Starr wie ein Zinnsoldat.",
             "right": "Biegsam wie ein Gymnast.",
-            "questionChat": "Wie beweglich ist {0}?"
+            "questionChat": "Wie beweglich ist @{0}?"
         },
         {
             "question": "Wie vorsichtig bist du?",
             "left": "Elefant im Porzellanladen.",
             "right": "Die Mutter der Porzellankiste.",
-            "questionChat": "Wie vorsichtig ist {0}?"
+            "questionChat": "Wie vorsichtig ist @{0}?"
         },
         {
             "question": "Wie gut bist du organisiert?",
             "left": "Alles liegt total verstreut herum.",
             "right": "Etiketten kleben auf allen Sachen?",
-            "questionChat": "Wie gut ist {0} organisiert?"
+            "questionChat": "Wie gut ist @{0} organisiert?"
         },
         {
             "question": "Bist du ein Feinschmecker?",
             "left": "Ein Vielfraß…",
             "right": "Ein Genießer!",
-            "questionChat": "Ist {0} ein Feinschmecker?"
+            "questionChat": "Ist @{0} ein Feinschmecker?"
         },
         {
             "question": "Wie gut kannst du mit Konflikten umgehen?",
             "left": "Besser verstecken!",
             "right": "Bis hierher und nicht weiter!",
-            "questionChat": "Wie gut kann {0} mit Konflikten umgehen?"
+            "questionChat": "Wie gut kann @{0} mit Konflikten umgehen?"
         },
         {
             "question": "Wie sehr magst du das Meer?",
             "left": "Salzwasser ist Gift für die Frisur!",
             "right": "Die reinste Wasserratte!",
-            "questionChat": "Wie sehr mag {0} das Meer?"
+            "questionChat": "Wie sehr mag @{0} das Meer?"
         },
         {
             "question": "Spielst du anderen gerne Streiche?",
             "left": "Streiche sind total unlustig!",
             "right": "Ein Leben ohne Streiche ist öde!",
-            "questionChat": "Spielt {0} anderen gerne Streiche?"
+            "questionChat": "Spielt @{0} anderen gerne Streiche?"
         },
         {
             "question": "Bist du ein Umweltschützer?",
             "left": "Mit dem Motorrad zum Briefkasten.",
             "right": "Mit dem Fahrrad ins Büro.",
-            "questionChat": "Ist {0} ein Umweltschützer?"
+            "questionChat": "Ist @{0} ein Umweltschützer?"
         },
         {
             "question": "Wie gut ist dein Namensgedächtnis?",
             "left": "Namen aller Mitspieler vergessen.",
             "right": "Ein Gedächtnis wie ein Elefant!",
-            "questionChat": "Wie gut ist das Namensgedächtnis von {0}?"
+            "questionChat": "Wie gut ist das Namensgedächtnis von @{0}?"
         },
         {
             "question": "Wie geduldig bist du?",
             "left": "Geht das nicht schneller hier?",
             "right": "In der Ruhe liegt die Kraft…",
-            "questionChat": "Wie geduldig ist {0}?"
+            "questionChat": "Wie geduldig ist @{0}?"
         }
     ]

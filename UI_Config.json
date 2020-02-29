@@ -1,59 +1,122 @@
 ﻿{
-    "output_file": "settings.json",
-    "enableDidYouKnow": {
-        "type": "checkbox",
-        "value": false,
-        "label": "Enable DidYouKnow",
-        "tooltip": "Is DidYouKnow enabled?",
-        "group": "General"
-    },
-    "gameCommand": {
-        "type": "textbox",
-        "value": "!diduknow",
-        "label": "FollowerTimeInMonth * this value",
-        "tooltip": "FollowerTimeInMonth * this value",
-        "group": "General"
-    },
-    "startGameCosts": {
-        "type": "numberbox",
-        "value": 100,
-        "label": "startGameCosts",
-        "tooltip": "How much costs a round for user",
-        "group": "General"
-    },
-    "winnerPrice": {
-        "type": "numberbox",
-        "value": 50,
-        "label": "winnerPrice",
-        "tooltip": "What can user2 win if he is the nearest one?",
-        "group": "General"
-    },
-    "winnerFullPrice": {
-        "type": "numberbox",
-        "value": 100,
-        "label": "winnerFullPrice",
-        "tooltip": "What can user2 win if he is exact correct?",
-        "group": "General"
-    },
-    "userCooldownInSeconds": {
-        "type": "numberbox",
-        "value": "100",
-        "label": "userCooldownInSeconds",
-        "tooltip": "userCooldownInSeconds",
-        "group": "General"
-    },
-    "languageStartChat": {
-        "type": "textbox",
-        "value": "Von einer Skala zwischen 0 und 100: {0} 0={1} || 100={2}",
-        "label": "languageStartChat",
-        "tooltip": "languageStartChat",
-        "group": "Language"
-    },
-    "languageStartWhisper": {
-        "type": "textbox",
-        "value": "{0}. Bitte beantworte die Frage mit der Skala '{1} 0-100'. 0={2} || 100={3}",
-        "label": "languageStartWhisper",
-        "tooltip": "languageStartWhisper",
-        "group": "Language"
-    }
+  "output_file": "settings.json",
+  "enableDidYouKnow": {
+    "type": "checkbox",
+    "value": false,
+    "label": "Enable DidYouKnow",
+    "tooltip": "Is DidYouKnow enabled?",
+    "group": "General"
+  },
+  "gameCommand": {
+    "type": "textbox",
+    "value": "!diduknow",
+    "label": "Start Command",
+    "tooltip": "Start Command",
+    "group": "General"
+  },
+  "command": {
+    "type": "textbox",
+    "value": "!know",
+    "label": "Answer Command",
+    "tooltip": "Answer Command",
+    "group": "General"
+  },
+  "startGameCosts": {
+    "type": "numberbox",
+    "value": 100,
+    "label": "startGameCosts",
+    "tooltip": "How much costs a round for user",
+    "group": "General"
+  },
+  "winnerPrice": {
+    "type": "numberbox",
+    "value": 50,
+    "label": "winnerPrice",
+    "tooltip": "What can user2 win if he is the nearest one?",
+    "group": "General"
+  },
+  "winnerFullPrice": {
+    "type": "numberbox",
+    "value": 100,
+    "label": "winnerFullPrice",
+    "tooltip": "What can user2 win if he is exact correct?",
+    "group": "General"
+  },
+  "userCooldownInSeconds": {
+    "type": "numberbox",
+    "value": "100",
+    "label": "Cooldown between games",
+    "tooltip": "Cooldown between games",
+    "group": "General"
+  },
+  "activeFor": {
+    "type": "numberbox",
+    "value": 120,
+    "label": "Game Active for Chat",
+    "tooltip": "In seconds",
+    "group": "General"
+  },
+  "creatorActiveFor": {
+    "type": "numberbox",
+    "value": 120,
+    "label": "Creatore time to answer to question",
+    "tooltip": "In seconds",
+    "group": "General"
+  },
+  "languageStartChat": {
+    "type": "textbox",
+    "value": "Von einer Skala zwischen 0 und 100: {0} 0={1} || 100={2} || ({3} Zahl)",
+    "label": "languageStartChat",
+    "tooltip": "languageStartChat",
+    "group": "Language"
+  },
+  "languageStartWhisper": {
+    "type": "textbox",
+    "value": "@{0}. Bitte beantworte die Frage mit der Skala (Nur die Zahl) '0-100': {1} || 0={2} || 100={3}",
+    "label": "languageStartWhisper",
+    "tooltip": "languageStartWhisper",
+    "group": "Language"
+  },
+  "languageGameEndNoOne": {
+    "type": "textbox",
+    "value": "Niemand hat mitgemacht, also gewinnt auch niemand!",
+    "label": "languageGameEndNoOne",
+    "tooltip": "languageGameEndNoOne",
+    "group": "Language"
+  },
+  "languageGameEndNearest": {
+    "type": "textbox",
+    "value": "Die Loesung von @{0} Frage ist {1}. Am nachsten dran mit {2} waren folgende Spieler: {3}.",
+    "label": "languageGameEndNearest",
+    "tooltip": "languageGameEndNearest",
+    "group": "Language"
+  },
+  "languageGameEndSame": {
+    "type": "textbox",
+    "value": "Die Loesung von @{0} Frage ist {1}. Das wussten natuerlich direkt folgende Spieler: {2}",
+    "label": "languageGameEndSame",
+    "tooltip": "languageGameEndSame",
+    "group": "Language"
+  },
+  "languageGameEndPrice": {
+    "type": "textbox",
+    "value": "Die Gewinner bekommen dafuer {0} {1}",
+    "label": "languageGameEndPrice",
+    "tooltip": "languageGameEndPrice",
+    "group": "Language"
+  },
+  "languageCooldown": {
+    "type": "textbox",
+    "value": "@{0} you have to wait {1} seconds to use {2} again!",
+    "label": "languageCooldown",
+    "tooltip": "languageCooldown",
+    "group": "Language"
+  },
+  "languageNoMoney": {
+    "type": "textbox",
+    "value": "@{0} you need atleast {1} {2}!",
+    "label": "languageNoMoney",
+    "tooltip": "languageNoMoney",
+    "group": "Language"
+  }
 }

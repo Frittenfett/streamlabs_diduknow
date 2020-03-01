@@ -44,7 +44,7 @@
   },
   "userCooldownInSeconds": {
     "type": "numberbox",
-    "value": "100",
+    "value": 1000,
     "label": "Cooldown between games",
     "tooltip": "Cooldown between games",
     "group": "General"
@@ -65,7 +65,7 @@
   },
   "languageStartChat": {
     "type": "textbox",
-    "value": "Von einer Skala zwischen 0 und 100: {0} 0={1} || 100={2} || ({3} Zahl)",
+    "value": "Von einer Skala zwischen 0 und 100 ({3} Zahl): {0} 0={1} || 100={2} || Ihr habt {4} Sekunden Zeit!",
     "label": "languageStartChat",
     "tooltip": "languageStartChat",
     "group": "Language"
@@ -86,21 +86,21 @@
   },
   "languageGameEndNearest": {
     "type": "textbox",
-    "value": "Die Loesung von @{0} Frage ist {1}. Am nachsten dran mit {2} waren folgende Spieler: {3}.",
+    "value": "Die Lösung von @{0} Frage ist {1}. Am nächsten dran mit {2} waren folgende Spieler: {3}",
     "label": "languageGameEndNearest",
     "tooltip": "languageGameEndNearest",
     "group": "Language"
   },
   "languageGameEndSame": {
     "type": "textbox",
-    "value": "Die Loesung von @{0} Frage ist {1}. Das wussten natuerlich direkt folgende Spieler: {2}",
+    "value": "Die Lösung von @{0} Frage ist {1}. Das wussten natürlich direkt folgende Spieler: {2}",
     "label": "languageGameEndSame",
     "tooltip": "languageGameEndSame",
     "group": "Language"
   },
   "languageGameEndPrice": {
     "type": "textbox",
-    "value": "Die Gewinner bekommen dafuer {0} {1}",
+    "value": "Die Gewinner bekommen dafür {0} {1}",
     "label": "languageGameEndPrice",
     "tooltip": "languageGameEndPrice",
     "group": "Language"
@@ -117,6 +117,34 @@
     "value": "@{0} you need atleast {1} {2}!",
     "label": "languageNoMoney",
     "tooltip": "languageNoMoney",
+    "group": "Language"
+  },
+  "languageAverage": {
+    "type": "textbox",
+    "value": "Der Durchschnitts-Wert der Teilnehmer war {0}",
+    "label": "languageAverage",
+    "tooltip": "languageAverage",
+    "group": "Language"
+  },
+  "languageToSlow": {
+    "type": "textbox",
+    "value": "@{0} war zu langsam. Ihr könnt wieder {1} benutzen.",
+    "label": "languageToSlow",
+    "tooltip": "languageToSlow",
+    "group": "Language"
+  },
+  "language30Seconds": {
+    "type": "textbox",
+    "value": "Nur noch 30 Sekunden... Stimmt jetzt ab mit '{0} Zahl",
+    "label": "language30Seconds",
+    "tooltip": "language30Seconds",
+    "group": "Language"
+  },
+  "languageStartGame": {
+    "type": "textbox",
+    "value": "Wie gut kennt ihr @{0} wirklich? @{0} hat eine Private Nachricht gekriegt und muss innerhalb von {1} Sekunden dort antworten. Und schon gehts dann los.",
+    "label": "languageStartGame",
+    "tooltip": "languageStartGame",
     "group": "Language"
   }
 }

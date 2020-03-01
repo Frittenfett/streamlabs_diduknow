@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # ---------------------------------------
 #   Import Libraries
 # ---------------------------------------
@@ -47,27 +48,25 @@ def Init():
             "startGameCosts": 100,
             "winnerPrice": 50,
             "winnerFullPrice": 100,
-            "languageGotCurrency": "{0} hat nach dem Wipe {1} {2} bekommen.",
             "userCooldownInSeconds": 1000,
             "activeFor": 120,
             "creatorActiveFor": 120,
             "command": "!know",
+            "languageStartGame": "Wie gut kennt ihr @{0} wirklich? @{0} hat eine Private Nachricht gekriegt und muss innerhalb von {1} Sekunden dort antworten. Und schon gehts dann los.",
             "languageStartWhisper": "@{0}. Bitte beantworte die Frage mit der Skala (Nur die Zahl) '0-100': {1} || 0={2} || 100={3}",
-            "languageStartChat": "Von einer Skala zwischen 0 und 100:  100={2} || ({3} Zahl)",
-            "languageGameEndNoOne": "Niemand hat mitgemacht, also gewinnt auch ni{0} 0={1} ||emand!",
-            "languageGameEndNearest": "Die Loesung von @{0} Frage ist {1}. Am nachsten dran mit {2} waren folgende Spieler: {3}.",
-            "languageGameEndSame": "Die Loesung von @{0} Frage ist {1}. Das wussten natuerlich direkt folgende Spieler: {2}",
-            "languageGameEndPrice": "Die Gewinner bekommen dafuer {0} {1}",
+            "languageStartChat": "Von einer Skala zwischen 0 und 100 ({3} Zahl): {0} 0={1} || 100={2} || Ihr habt {4} Sekunden Zeit!",
+            "languageGameEndNoOne": "Niemand hat mitgemacht, also gewinnt auch niemand!",
+            "languageGameEndNearest": "Die Lösung von @{0} Frage ist {1}. Am nächsten dran mit {2} waren folgende Spieler: {3}",
+            "languageGameEndSame": "Die Lösung von @{0} Frage ist {1}. Das wussten natürlich direkt folgende Spieler: {2}",
+            "languageGameEndPrice": "Die Gewinner bekommen dafür {0} {1}",
             "languageCooldown": "@{0} you have to wait {1} seconds to use {2} again!",
             "languageNoMoney": "@{0} you need atleast {1} {2}!",
+            "languageAverage": "Der Durchschnitts-Wert der Teilnehmer war {0}",
+            "languageToSlow": "@{0} war zu langsam. Ihr könnt wieder {1} benutzen.",
+            "language30Seconds": "Nur noch 30 Sekunden... Stimmt jetzt ab mit '{0} Zahl'",
         }
 
-    activeQuestion = None
-    activeUser = None
-    solution = None
-    activeFor = 0
-    creatorActiveFor = 0
-    playerChoices = {}
+    ResetGame()
     return
 
 
@@ -79,10 +78,11 @@ def Execute(data):
 
     if data.IsWhisper() and activeUser is not None:
         tmpSolution = int(data.GetParam(0))
-        if activeUser == data.User and tmpSolution >= 0 and tmpSolution <= 100:
+        if activeUser == data.User and creatorActiveFor > 0 and tmpSolution >= 0 and tmpSolution <= 100:
             activeFor = settings['activeFor']
             solution = tmpSolution
-            Parent.SendTwitchMessage(settings["languageStartChat"].format(activeQuestion["questionChat"].format(activeUser), activeQuestion['left'], activeQuestion['right'], settings["command"]))
+            creatorActiveFor = 0
+            Parent.SendTwitchMessage(settings["languageStartChat"].format(activeQuestion["questionChat"].format(activeUser), activeQuestion['left'], activeQuestion['right'], settings["command"], str(activeFor)))
             return
 
     if data.IsChatMessage():
@@ -105,8 +105,9 @@ def Execute(data):
             activeQuestion = random.choice(questions)
             activeUser = user
             creatorActiveFor = settings['creatorActiveFor']
+            Parent.SendTwitchMessage(settings["languageStartGame"].format(user, str(creatorActiveFor)))
             Parent.SendStreamWhisper(activeUser, settings["languageStartWhisper"].format(activeUser, activeQuestion["question"], activeQuestion["left"], activeQuestion["right"]))
-        elif activeQuestion is not None and command == settings["command"] and user != activeUser:
+        elif activeQuestion is not None and activeFor > 0 and command == settings["command"] and user != activeUser:
             # Handle chat
             if user not in playerChoices.keys():
                 choice = int(data.GetParam(1))
@@ -130,19 +131,27 @@ def Tick():
     time.sleep(1)
     if activeFor > 0:
         activeFor = activeFor - 1
+        if activeFor == 30:
+            Parent.SendTwitchMessage(settings["language30Seconds"].format(settings['command']))
     elif creatorActiveFor > 0:
         creatorActiveFor = creatorActiveFor - 1
+        if creatorActiveFor == 0:
+            Parent.SendTwitchMessage(settings["languageToSlow"].format(settings['activeUser'], settings['gameCommand']))
+            ResetGame()
     else:
         # Game end
         nearestDiff = 100
         nearestSolution = None
-        nearest
         for userName, userData in playerChoices.items():
             if userData["diff"] < nearestDiff:
                 nearestDiff = userData["diff"]
 
         playerWon = []
+        summary = 0
+        playerAmount = 0
         for userName, userData in playerChoices.items():
+            summary = summary + int(userData["choice"])
+            playerAmount = playerAmount + 1
             if userData["diff"] == nearestDiff:
                 playerWon.append(userName)
                 nearestSolution = userData["choice"]
@@ -157,16 +166,25 @@ def Tick():
                 message = settings["languageGameEndNearest"].format(activeUser, str(solution), nearestSolution, ','.join(playerWon))
                 price = settings["winnerPrice"]
 
+            average = int(summary / playerAmount)
+            message = message + ". " + settings["languageAverage"].format(str(average))
+
             if price > 0:
                 for player in playerWon:
                     Parent.AddPoints(player, int(price))
-                message = message + settings["languageGameEndPrice"].format(str(price), Parent.GetCurrencyName())
+                message = message + ". " + settings["languageGameEndPrice"].format(str(price), Parent.GetCurrencyName())
 
             Parent.SendTwitchMessage(message)
-        activeQuestion = None
-        activeUser = None
-        solution = None
-        activeFor = 0
-        creatorActiveFor = 0
-        playerChoices = {}
+            ResetGame()
     return
+
+
+def ResetGame():
+    global settings, activeQuestion, activeFor, activeUser, creatorActiveFor, solution, playerChoices
+    activeQuestion = None
+    activeUser = None
+    solution = None
+    activeFor = 0
+    creatorActiveFor = 0
+    playerChoices = {}
+    Parent.AddCooldown(ScriptName, settings['gameCommand'], 1)

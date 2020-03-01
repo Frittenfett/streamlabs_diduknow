@@ -19,7 +19,7 @@ ScriptName = "Did U Know"
 Website = "https://www.twitch.tv/frittenfettsenpai"
 Description = "Did U Know - Minigame"
 Creator = "frittenfettsenpai"
-Version = "1.0.0"
+Version = "1.0.1"
 
 
 # ---------------------------------------
@@ -44,20 +44,20 @@ def Init():
     except:
         settings = {
             "enableDidYouKnow": True,
-            "gameCommand": "!diduknow",
+            "gameCommand": "!ratespiel",
             "startGameCosts": 100,
             "winnerPrice": 50,
             "winnerFullPrice": 100,
             "userCooldownInSeconds": 1000,
-            "activeFor": 120,
+            "activeFor": 90,
             "creatorActiveFor": 120,
             "command": "!know",
             "languageStartGame": "Wie gut kennt ihr @{0} wirklich? @{0} hat eine Private Nachricht gekriegt und muss innerhalb von {1} Sekunden dort antworten. Und schon gehts dann los.",
             "languageStartWhisper": "@{0}. Bitte beantworte die Frage mit der Skala (Nur die Zahl) '0-100': {1} || 0={2} || 100={3}",
             "languageStartChat": "Von einer Skala zwischen 0 und 100 ({3} Zahl): {0} 0={1} || 100={2} || Ihr habt {4} Sekunden Zeit!",
             "languageGameEndNoOne": "Niemand hat mitgemacht, also gewinnt auch niemand!",
-            "languageGameEndNearest": "Die Lösung von @{0} Frage ist {1}. Am nächsten dran mit {2} waren folgende Spieler: {3}",
-            "languageGameEndSame": "Die Lösung von @{0} Frage ist {1}. Das wussten natürlich direkt folgende Spieler: {2}",
+            "languageGameEndNearest": "Die Lösung von @{0} Frage '{4}' ist {1}. Am nächsten dran mit {2} waren folgende Spieler: {3}",
+            "languageGameEndSame": "Die Lösung von @{0} Frage '{3}' ist {1}. Das wussten natürlich direkt folgende Spieler: {2}",
             "languageGameEndPrice": "Die Gewinner bekommen dafür {0} {1}",
             "languageCooldown": "@{0} you have to wait {1} seconds to use {2} again!",
             "languageNoMoney": "@{0} you need atleast {1} {2}!",
@@ -90,7 +90,7 @@ def Execute(data):
         command = data.GetParam(0).lower()
         if settings["enableDidYouKnow"] and command == settings["gameCommand"] and activeQuestion is None:
             if Parent.IsOnCooldown(ScriptName, settings["gameCommand"]) and Parent.HasPermission(user, "Caster", "") is False:
-                cooldown = Parent.GetCooldownDuration(ScriptName, settings["userCooldownInSeconds"])
+                cooldown = Parent.GetCooldownDuration(ScriptName, settings["gameCommand"])
                 Parent.SendTwitchMessage(settings["languageCooldown"].format(user, cooldown, settings["gameCommand"]))
                 return
             if Parent.GetPoints(user) < settings['startGameCosts']:
@@ -158,12 +158,13 @@ def Tick():
 
         if len(playerWon) == 0:
             Parent.SendTwitchMessage(settings["languageGameEndNoOne"])
+            ResetGame()
         else:
             if solution == nearestSolution:
-                message = settings["languageGameEndSame"].format(activeUser, str(solution), ','.join(playerWon))
+                message = settings["languageGameEndSame"].format(activeUser, str(solution), ', '.join(playerWon), activeQuestion["question"])
                 price = settings["winnerFullPrice"]
             else:
-                message = settings["languageGameEndNearest"].format(activeUser, str(solution), nearestSolution, ','.join(playerWon))
+                message = settings["languageGameEndNearest"].format(activeUser, str(solution), nearestSolution, ', '.join(playerWon), activeQuestion["question"])
                 price = settings["winnerPrice"]
 
             average = int(summary / playerAmount)

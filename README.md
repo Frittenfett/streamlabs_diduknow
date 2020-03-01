@@ -16,4 +16,4 @@ The available default commands are:
 ### Changelog
 
 * v1.0.0 Major Release
-
+* v1.0.1 Fix endless spam bug

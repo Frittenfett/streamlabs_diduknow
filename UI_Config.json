@@ -135,7 +135,7 @@
   },
   "language30Seconds": {
     "type": "textbox",
-    "value": "Nur noch 30 Sekunden... Stimmt jetzt ab mit '{0} Zahl",
+    "value": "Nur noch 30 Sekunden... Stimmt jetzt ab mit '{0} Zahl'",
     "label": "language30Seconds",
     "tooltip": "language30Seconds",
     "group": "Language"

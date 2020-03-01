@@ -17,9 +17,9 @@ clr.AddReference("IronPython.Modules.dll")
 # ---------------------------------------
 ScriptName = "Did U Know"
 Website = "https://www.twitch.tv/frittenfettsenpai"
-Description = "Reeyyyyyye."
+Description = "Did U Know - Minigame"
 Creator = "frittenfettsenpai"
-Version = "0.5.0"
+Version = "1.0.0"
 
 
 # ---------------------------------------

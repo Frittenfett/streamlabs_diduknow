@@ -19,23 +19,15 @@ ScriptName = "Did U Know"
 Website = "https://www.twitch.tv/frittenfettsenpai"
 Description = "Did U Know - Minigame"
 Creator = "frittenfettsenpai"
-Version = "1.0.1"
+Version = "1.1.0"
 
 
 # ---------------------------------------
 #   [Required] Intialize Data (Only called on Load)
 # ---------------------------------------
 def Init():
-    global settings, questions, activeQuestion, activeFor, activeUser, creatorActiveFor, solution, playerChoices
+    global settings, questions, activeQuestion, activeFor, activeUser, creatorActiveFor, solution, playerChoices, stackCounter
     settingsfile = os.path.join(os.path.dirname(__file__), "settings.json")
-    datafile = os.path.join(os.path.dirname(__file__), "questions.json")
-
-    try:
-        with codecs.open(datafile, encoding="utf-8-sig", mode="r") as f:
-            questions = json.load(f, encoding="utf-8")
-            f.close()
-    except:
-        questions = {}
 
     try:
         with codecs.open(settingsfile, encoding="utf-8-sig", mode="r") as f:
@@ -44,28 +36,41 @@ def Init():
     except:
         settings = {
             "enableDidYouKnow": True,
-            "gameCommand": "!ratespiel",
+            "language": "de",
+            "questionRandomizerType": "random",
+            "gameCommand": "!guessinggame",
             "startGameCosts": 100,
             "winnerPrice": 50,
             "winnerFullPrice": 100,
             "userCooldownInSeconds": 1000,
             "activeFor": 90,
             "creatorActiveFor": 120,
-            "command": "!know",
-            "languageStartGame": "Wie gut kennt ihr @{0} wirklich? @{0} hat eine Private Nachricht gekriegt und muss innerhalb von {1} Sekunden dort antworten. Und schon gehts dann los.",
-            "languageStartWhisper": "@{0}. Bitte beantworte die Frage mit der Skala (Nur die Zahl) '0-100': {1} || 0={2} || 100={3}",
-            "languageStartChat": "Von einer Skala zwischen 0 und 100 ({3} Zahl): {0} 0={1} || 100={2} || Ihr habt {4} Sekunden Zeit!",
+            "command": "!guess",
+            "languageStartGame": "Wie gut kennt ihr @{0} wirklich? @{0} hat eine private Flüster-Nachricht bekommen und muss innerhalb von {1} Sekunden dort antworten. Und schon gehts dann los.!",
+            "languageStartWhisper": "@{0}. Bitte beantworte die Frage auf einer Skala (Nur die Zahl) von '0-100': {1} || 0={2} || 100={3}",
+            "languageStartChat": "Auf einer Skala von 0 bis 100 ({3} Zahl): {0} 0={1} || 100={2} || Ihr habt {4} Sekunden Zeit!",
             "languageGameEndNoOne": "Niemand hat mitgemacht, also gewinnt auch niemand!",
             "languageGameEndNearest": "Die Lösung von @{0} Frage '{4}' ist {1}. Am nächsten dran mit {2} waren folgende Spieler: {3}",
             "languageGameEndSame": "Die Lösung von @{0} Frage '{3}' ist {1}. Das wussten natürlich direkt folgende Spieler: {2}",
             "languageGameEndPrice": "Die Gewinner bekommen dafür {0} {1}",
-            "languageCooldown": "@{0} you have to wait {1} seconds to use {2} again!",
-            "languageNoMoney": "@{0} you need atleast {1} {2}!",
+            "languageCooldown": "@{0} Du musst {1} Sekunden warten, bevor du {2} nutzen kannst!",
+            "languageNoMoney": "@{0} du benötigst mindestens {1} {2}!",
             "languageAverage": "Der Durchschnitts-Wert der Teilnehmer war {0}",
             "languageToSlow": "@{0} war zu langsam. Ihr könnt wieder {1} benutzen.",
             "language30Seconds": "Nur noch 30 Sekunden... Stimmt jetzt ab mit '{0} Zahl'",
         }
 
+    datafile = os.path.join(os.path.dirname(__file__), "questions_" + settings["language"] + ".json")
+    try:
+        with codecs.open(datafile, encoding="utf-8-sig", mode="r") as f:
+            questions = json.load(f, encoding="utf-8")
+            random.seed(time.clock())
+            random.shuffle(questions)
+            f.close()
+    except:
+        questions = {}
+
+    stackCounter = 0
     ResetGame()
     return
 
@@ -74,7 +79,7 @@ def Init():
 #   [Required] Execute Data / Process Messages
 # ---------------------------------------
 def Execute(data):
-    global settings, questions, activeQuestion, activeFor, activeUser, creatorActiveFor, solution, playerChoices
+    global settings, questions, activeQuestion, activeFor, activeUser, creatorActiveFor, solution, playerChoices, stackCounter
 
     if data.IsWhisper() and activeUser is not None:
         tmpSolution = int(data.GetParam(0))
@@ -101,8 +106,14 @@ def Execute(data):
             if int(settings['startGameCosts']) > 0:
                 Parent.RemovePoints(user, int(settings['startGameCosts']))
 
-            random.seed(time.clock())
-            activeQuestion = random.choice(questions)
+            if settings["questionRandomizerType"] == "random":
+                random.seed(time.clock())
+                activeQuestion = random.choice(questions)
+            else:
+                activeQuestion = questions[stackCounter]
+                stackCounter = stackCounter + 1
+                if stackCounter >= len(questions):
+                    stackCounter = 0
             activeUser = user
             creatorActiveFor = settings['creatorActiveFor']
             Parent.SendTwitchMessage(settings["languageStartGame"].format(user, str(creatorActiveFor)))

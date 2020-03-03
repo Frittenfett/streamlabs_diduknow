@@ -1,10 +1,10 @@
 # streamlabs_diduknow
 
-### this scripts will add a minigame to your streamlabs chatbot. Currently, german only.
+### this scripts will add a minigame to your streamlabs chatbot. Supported languages: german, english
 
 The available default commands are:
-* !diduknow
-* !know (0-100)
+* !guessinggame
+* !guess (0-100)
 
 ### What does this minigame?
 * TL;DR: Did you know that chat member?
@@ -17,3 +17,4 @@ The available default commands are:
 
 * v1.0.0 Major Release
 * v1.0.1 Fix endless spam bug
+* v1.1.0 Multilanguage support and add diffrent random algos

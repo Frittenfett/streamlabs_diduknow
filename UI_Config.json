@@ -7,51 +7,73 @@
     "tooltip": "Is DidYouKnow enabled?",
     "group": "General"
   },
+  "language": {
+    "type": "dropdown",
+    "label": "Question Language",
+    "value": "de",
+    "tooltip": "Choose your language",
+    "items": [
+      "de",
+      "en"
+    ],
+    "group": "General"
+  },
+  "questionRandomizerType": {
+    "type": "dropdown",
+    "label": "Question Randomizer Algo",
+    "value": "random",
+    "tooltip": "Random=Fully random question; stack=each after another",
+    "items": [
+      "random",
+      "stack"
+    ],
+    "group": "General"
+  },
   "gameCommand": {
     "type": "textbox",
-    "value": "!diduknow",
+    "value": "!guessinggame",
     "label": "Start Command",
     "tooltip": "Start Command",
     "group": "General"
   },
   "command": {
     "type": "textbox",
-    "value": "!know",
+    "value": "!guess",
     "label": "Answer Command",
     "tooltip": "Answer Command",
     "group": "General"
   },
   "startGameCosts": {
     "type": "numberbox",
-    "value": 100,
+    "value": 10,
     "label": "startGameCosts",
     "tooltip": "How much costs a round for user",
     "group": "General"
   },
   "winnerPrice": {
     "type": "numberbox",
-    "value": 50,
+    "value": 25,
     "label": "winnerPrice",
     "tooltip": "What can user2 win if he is the nearest one?",
     "group": "General"
   },
   "winnerFullPrice": {
     "type": "numberbox",
-    "value": 100,
+    "value": 50,
     "label": "winnerFullPrice",
     "tooltip": "What can user2 win if he is exact correct?",
     "group": "General"
   },
   "userCooldownInSeconds": {
     "type": "numberbox",
-    "value": 1000,
+    "value": 0,
     "label": "Cooldown between games",
     "tooltip": "Cooldown between games",
     "group": "General"
   },
   "activeFor": {
     "type": "numberbox",
-    "value": 120,
+    "value": 100,
     "label": "Game Active for Chat",
     "tooltip": "In seconds",
     "group": "General"
@@ -65,14 +87,14 @@
   },
   "languageStartChat": {
     "type": "textbox",
-    "value": "Von einer Skala zwischen 0 und 100 ({3} Zahl): {0} 0={1} || 100={2} || Ihr habt {4} Sekunden Zeit!",
+    "value": "Auf einer Skala von 0 bis 100 ({3} Zahl): {0} 0={1} || 100={2} || Ihr habt {4} Sekunden Zeit!",
     "label": "languageStartChat",
     "tooltip": "languageStartChat",
     "group": "Language"
   },
   "languageStartWhisper": {
     "type": "textbox",
-    "value": "@{0}. Bitte beantworte die Frage mit der Skala (Nur die Zahl) '0-100': {1} || 0={2} || 100={3}",
+    "value": "@{0}. Bitte beantworte die Frage auf einer Skala (Nur die Zahl) von '0-100': {1} || 0={2} || 100={3}",
     "label": "languageStartWhisper",
     "tooltip": "languageStartWhisper",
     "group": "Language"
@@ -107,14 +129,14 @@
   },
   "languageCooldown": {
     "type": "textbox",
-    "value": "@{0} you have to wait {1} seconds to use {2} again!",
+    "value": "@{0} Du musst {1} Sekunden warten, bevor du {2} nutzen kannst!",
     "label": "languageCooldown",
     "tooltip": "languageCooldown",
     "group": "Language"
   },
   "languageNoMoney": {
     "type": "textbox",
-    "value": "@{0} you need atleast {1} {2}!",
+    "value": "@{0} du benötigst mindestens {1} {2}!",
     "label": "languageNoMoney",
     "tooltip": "languageNoMoney",
     "group": "Language"
@@ -142,7 +164,7 @@
   },
   "languageStartGame": {
     "type": "textbox",
-    "value": "Wie gut kennt ihr @{0} wirklich? @{0} hat eine Private Nachricht gekriegt und muss innerhalb von {1} Sekunden dort antworten. Und schon gehts dann los.",
+    "value": "Wie gut kennt ihr @{0} wirklich? @{0} hat eine private Flüster-Nachricht bekommen und muss innerhalb von {1} Sekunden dort antworten. Und schon gehts dann los.",
     "label": "languageStartGame",
     "tooltip": "languageStartGame",
     "group": "Language"

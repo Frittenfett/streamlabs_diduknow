@@ -1,0 +1,596 @@
+	[
+        {
+            "question": "How sporty are you?",
+            "left": "Sweat? Eww.",
+            "right": "GO TEAM!",
+            "questionChat": "How sporty is {0}?"
+        },
+        {
+            "question": "How caring are you towards others?",
+            "left": "Not in the slightest",
+            "right": "Practically a saint",
+            "questionChat": "How caring is {0} towards others?"
+        },
+        {
+            "question": "How well does flattery work on you?",
+            "left": "Flattery gets you nowhere!",
+            "right": "Flattery gets you everywhere!",
+            "questionChat": "How well does flattery work on {0}?"
+        },
+        {
+            "question": "Do you keep up with the latest trends?",
+            "left": "What are trends?",
+            "right": "Always bang on trend",
+            "questionChat": "Does {0} keep up with the latest trends?"
+        },
+        {
+            "question": "How fast can you run?",
+            "left": "Like a tortoise",
+            "right": "Like a cheetah",
+            "questionChat": "How fast can {0} run?"
+        },
+        {
+            "question": "How mature are you?",
+            "left": "Shoe size = age!",
+            "right": "Mature like cheddar!",
+            "questionChat": "How mature is {0}?"
+        },
+        {
+            "question": "How sweet is your sweet tooth?",
+            "left": "Sweets? YUCK!",
+            "right": "Never enough sweet stuff!",
+            "questionChat": "How sweet is {0}'s sweet tooth?"
+        },
+        {
+            "question": "How good are you at giving advice?",
+            "left": "The worst advice known to mankind",
+            "right": "Could write a self-help book",
+            "questionChat": "How good is {0} at giving advice?"
+        },
+        {
+            "question": "How often do you worry?",
+            "left": "What is there to worry about?",
+            "right": "Worrying ALL the time!",
+            "questionChat": "How often does {0} worry?"
+        },
+        {
+            "question": "How stylish are you?",
+            "left": "No idea about style",
+            "right": "Très chic",
+            "questionChat": "How stylish is {0}?"
+        },
+        {
+            "question": "How good is your memory?",
+            "left": "Forgotten the question already",
+            "right": "Photographic",
+            "questionChat": "How good is {0}'s memory?"
+        },
+        {
+            "question": "How easily do you cry?",
+            "left": "What is \"crying\"?",
+            "right": "Boo hoo hoo - very easily!",
+            "questionChat": "How easily does {0} cry?"
+        },
+        {
+            "question": "How many times a day do you say sorry?",
+            "left": "Never",
+            "right": "Over 100 times",
+            "questionChat": "How many times a day does {0} say sorry?"
+        },
+        {
+            "question": "How much of an animal lover are you?",
+            "left": "Avoid animals at all costs",
+            "right": "Prefer animals to humans",
+            "questionChat": "How much of an animal lover is {0}"
+        },
+        {
+            "question": "How much of a morning person are you?",
+            "left": "Mornings should be cancelled",
+            "right": "Mornings are the best!",
+            "questionChat": "How much of a morning person is {0}?"
+        },
+        {
+            "question": "How stingy are you?",
+            "left": "Money's there to be spent",
+            "right": "Everything is too expensive!",
+            "questionChat": "How stingy is {0}?"
+        },
+        {
+            "question": "How punctual are you?",
+            "left": "Full of excuses for being late",
+            "right": "Always there 10 mins early",
+            "questionChat": "How punctual is {0}?"
+        },
+        {
+            "question": "How healthy is your lifestyle?",
+            "left": "Not in the slightest",
+            "right": "Extremely",
+            "questionChat": "How healthy is {0}'s lifestyle?"
+        },
+        {
+            "question": "How much do you like to plan?",
+            "left": "Always winging it",
+            "right": "Plan everything",
+            "questionChat": "How much does {0} like to plan?"
+        },
+        {
+            "question": "How much of a movie buff are you?",
+            "left": "Totally clueless",
+            "right": "Cinema savvy",
+            "questionChat": "How much of a movie buff is {0}?"
+        },
+        {
+            "question": "How good are you with numbers?",
+            "left": "1 + 2 = 5...right?",
+            "right": "Super computer",
+            "questionChat": "How good is {0} with numbers?"
+        },
+        {
+            "question": "How strong are you?",
+            "left": "Like a fly",
+            "right": "Like a wrestler",
+            "questionChat": "How strong is {0}?"
+        },
+        {
+            "question": "How good are you at spelling?",
+            "left": "Knot gud",
+            "right": "E-X-C-E-L-L-E-N-T",
+            "questionChat": "How good is {0} at spelling?"
+        },
+        {
+            "question": "How much do you like the limelight?",
+            "left": "Secret agent",
+            "right": "Bring on the paparazzi",
+            "questionChat": "How much does {0} like the limelight?"
+        },
+        {
+            "question": "How silly are you?",
+            "left": "As silly as maths homework",
+            "right": "As silly as a rubber chicken",
+            "questionChat": "How silly is {0}?"
+        },
+        {
+            "question": "How good were you at school?",
+            "left": "Teacher's pain",
+            "right": "Teacher's pet",
+            "questionChat": "How good was {0} at school?"
+        },
+        {
+            "question": "How much do you follow the news?",
+            "left": "Not a clue",
+            "right": "As much as the news readers",
+            "questionChat": "How much does {0} follow the news?"
+        },
+        {
+            "question": "How polite are you?",
+            "left": "Not polite at all",
+            "right": "Always mindings P's and Q's",
+            "questionChat": "How poilte is {0}?"
+        },
+        {
+            "question": "How competitive are you?",
+            "left": "Taking part is what counts",
+            "right": "Winning is everything",
+            "questionChat": "How competitive is {0}?"
+        },
+        {
+            "question": "How good are you with technology?",
+            "left": "Techno challenged",
+            "right": "Techno wizard",
+            "questionChat": "How good is {0} with technology?"
+        },
+        {
+            "question": "How upbeat are you?",
+            "left": "As upbeat as a sad clown",
+            "right": "As upbeat as a cheerleader",
+            "questionChat": "How upbeat is {0}?"
+        },
+        {
+            "question": "How good is your sense of direction?",
+            "left": "Struggling even with GPS",
+            "right": "Maps?! Who needs them!",
+            "questionChat": "How good is {0}'s sense of direction?"
+        },
+        {
+            "question": "Could you survive in the wilderness?",
+            "left": "Will there be internet access?",
+            "right": "Bring it on!",
+            "questionChat": "Could {0} survive in the wilderness?"
+        },
+        {
+            "question": "How ambitious are you?",
+            "left": "Aim for what's right in front",
+            "right": "Aim for the moon!",
+            "questionChat": "How amitious is {0}?"
+        },
+        {
+            "question": "How well can you sing?",
+            "left": "Tone deaf",
+            "right": "Like a bird",
+            "questionChat": "How well can {0} sing?"
+        },
+        {
+            "question": "How much heat can you take?",
+            "left": "If it's not snowing, it's too hot",
+            "right": "The hotter the better!",
+            "questionChat": "How much heat can {0} take?"
+        },
+        {
+            "question": "How are you at keeping secrets?",
+            "left": "\"Have you heard the news?!\"",
+            "right": "Wouldn't tell a soul",
+            "questionChat": "How is {0} at keeping secrets?"
+        },
+        {
+            "question": "How nosy are you?",
+            "left": "Not at all",
+            "right": "Excessively",
+            "questionChat": "How nosy is {0}?"
+        },
+        {
+            "question": "How musical are you?",
+            "left": "Not at all",
+            "right": "The next Beethoven",
+            "questionChat": "How musical is {0}?"
+        },
+        {
+            "question": "How honest are you?",
+            "left": "Not honest at all",
+            "right": "Brutally",
+            "questionChat": "How honest is {0}?"
+        },
+        {
+            "question": "How well can you dance?",
+            "left": "Two left feet",
+            "right": "Like a pro",
+            "questionChat": "How well can {0} dance?"
+        },
+        {
+            "question": "How hot is your temper?",
+            "left": "Cool as a cucumber",
+            "right": "Scalding hot",
+            "questionChat": "How hot is {0}'s temper?"
+        },
+        {
+            "question": "How confident are you?",
+            "left": "Not at all",
+            "right": "Extremely",
+            "questionChat": "How confident is {0}?"
+        },
+        {
+            "question": "How often do you smile?",
+            "left": "Never",
+            "right": "All the time",
+            "questionChat": "How often does {0} smile?"
+        },
+        {
+            "question": "How much of a scaredy-cat are you?",
+            "left": "No fear!",
+            "right": "Always scared",
+            "questionChat": "How much of a scaredy-cat is {0}?"
+        },
+        {
+            "question": "How late do you stay up at night?",
+            "left": "Not late at all",
+            "right": "Till dawn",
+            "questionChat": "How late does {0} stay up at night?"
+        },
+        {
+            "question": "How impressionable are you?",
+            "left": "Not at all",
+            "right": "Extremely",
+            "questionChat": "How impressionable is {0}?"
+        },
+        {
+            "question": "How often do you use social media?",
+            "left": "Social what?",
+            "right": "Always updating",
+            "questionChat": "How often does {0} use social media?"
+        },
+        {
+            "question": "How talkative are you?",
+            "left": "…",
+            "right": "Very, very, very",
+            "questionChat": "How talkative is {0}?"
+        },
+        {
+            "question": "How big is your vocabulary?",
+            "left": "Pretty small",
+            "right": "Prodigious!",
+            "questionChat": "How big is {0}'s vocabulary?"
+        },
+        {
+            "question": "How much spice can you handle?",
+            "left": "Even ketchup is too spicy",
+            "right": "Bring on the peppers!",
+            "questionChat": "How much spice can {0} handle?"
+        },
+        {
+            "question": "How independent are you?",
+            "left": "Can't do anything alone",
+            "right": "Utterly independent",
+            "questionChat": "How independent is {0}?"
+        },
+        {
+            "question": "How tidy are you?",
+            "left": "Ridiculously untidy",
+            "right": "Everything is spick and span!",
+            "questionChat": "How tidy is {0}?"
+        },
+        {
+            "question": "How bossy are you?",
+            "left": "Bossy? More like a doormat",
+            "right": "Can't help but control everything",
+            "questionChat": "How bossy is {0}?"
+        },
+        {
+            "question": "How good are you at taking tests?",
+            "left": "Not so hot",
+            "right": "Fantastic",
+            "questionChat": "How good is {0} at taking tests?"
+        },
+        {
+            "question": "How good are you with languages?",
+            "left": "Words... not... good...",
+            "right": "Très bien!",
+            "questionChat": "How good is {0} with languages?"
+        },
+        {
+            "question": "How gullible are you?",
+            "left": "Impossible to fool",
+            "right": "The world is flat? Seems legit",
+            "questionChat": "How gullible is {0}?"
+        },
+        {
+            "question": "How often do you read horoscopes?",
+            "left": "People actually read those things?",
+            "right": "Every day",
+            "questionChat": "How often does {0} read horoscopes?"
+        },
+        {
+            "question": "How outdoorsy are you?",
+            "left": "Allergic to the outdoors",
+            "right": "Would be happy hiking every day",
+            "questionChat": "How outdoorsy is {0}?"
+        },
+        {
+            "question": "How much of a sore loser are you?",
+            "left": "Taking part is what counts",
+            "right": "Sulking for days",
+            "questionChat": "How much of a sore loser is {0}?"
+        },
+        {
+            "question": "How easy is it for you to get distracted?",
+            "left": "Focus is unbreakable",
+            "right": "Oh look over there!",
+            "questionChat": "How easy is it for {0} to get distracted?"
+        },
+        {
+            "question": "How romantic are you?",
+            "left": "Fast food is romantic, right?",
+            "right": "As romantic as a candlelit dinner",
+            "questionChat": "How romantic is {0}?"
+        },
+        {
+            "question": "How quickly can you make a decision?",
+            "left": "Hmm...that's a tough question",
+            "right": "In a snap",
+            "questionChat": "How quickly can {0} make a decision?"
+        },
+        {
+            "question": "How often do you get grumpy?",
+            "left": "Never!",
+            "right": "Constantly grumpy",
+            "questionChat": "How often does {0} get grumpy?"
+        },
+        {
+            "question": "How much do you enjoy cooking?",
+            "left": "Ready-made meals are best",
+            "right": "Always cooking from scratch",
+            "questionChat": "How much does {0} enjoy cooking?"
+        },
+        {
+            "question": "How much do you like vegetables?",
+            "left": "Yuck!",
+            "right": "They're the best!",
+            "questionChat": "How much does {0} like vegetables?"
+        },
+        {
+            "question": "How snobby are you?",
+            "left": "Very down to earth",
+            "right": "Extremely",
+            "questionChat": "How snobbish is {0}?"
+        },
+        {
+            "question": "How ticklish are you?",
+            "left": "Completely numb",
+            "right": "Extremely",
+            "questionChat": "How ticklish is {0}?"
+        },
+        {
+            "question": "How artistic are you?",
+            "left": "Stick-figures all the way",
+            "right": "Even surpassing Picasso",
+            "questionChat": "How artistic is {0}?"
+        },
+        {
+            "question": "How scared of heights are you?",
+            "left": "Not scared at all",
+            "right": "Terrified",
+            "questionChat": "How scared of heights is {0}?"
+        },
+        {
+            "question": "How good a listener are you?",
+            "left": "Huh?",
+            "right": "The best!",
+            "questionChat": "How good a listener is {0}?"
+        },
+        {
+            "question": "How often do you gossip?",
+            "left": "Gossip? Boring!",
+            "right": "Always up to date with the latest",
+            "questionChat": "How often does {0} gossip?"
+        },
+        {
+            "question": "How persuasive are you?",
+            "left": "Not at all",
+            "right": "Very persuasive",
+            "questionChat": "How persuasive is {0}?"
+        },
+        {
+            "question": "How good are you with bugs?",
+            "left": "Eww! Get them away!",
+            "right": "Creepy crawly lover",
+            "questionChat": "How good is {0} with bugs?"
+        },
+        {
+            "question": "How often do you look in the mirror?",
+            "left": "Happy to live without mirrors",
+            "right": "Cannot help but check the mirror",
+            "questionChat": "How often does {0} look in the mirror?"
+        },
+        {
+            "question": "How much do you like chocolate?",
+            "left": "Despise it",
+            "right": "Adore it",
+            "questionChat": "How much does {0} like chocolate?"
+        },
+        {
+            "question": "How much of a team player are you?",
+            "left": "Me, myself and I!",
+            "right": "No 'I' in team!",
+            "questionChat": "How much of a team player is {0}?"
+        },
+        {
+            "question": "How aggressive are you?",
+            "left": "Like a mouse",
+            "right": "Like a gorilla",
+            "questionChat": "How aggressive is {0}?"
+        },
+        {
+            "question": "How good are you at making friends?",
+            "left": "Happier to be alone",
+            "right": "Can befriend anyone",
+            "questionChat": "How good is {0} at making friends?"
+        },
+        {
+            "question": "How well do you handle big crowds?",
+            "left": "Terribly",
+            "right": "Wonderfully",
+            "questionChat": "How well does {0} handle big crowds?"
+        },
+        {
+            "question": "How sarcastic are you?",
+            "left": "Not sarcastic at all",
+            "right": "Totally sarcastic",
+            "questionChat": "How sarcastic is {0}?"
+        },
+        {
+            "question": "How calm are you in an emergency?",
+            "left": "Total panic",
+            "right": "Very calm",
+            "questionChat": "How calm is {0} in an emergency?"
+        },
+        {
+            "question": "How big is your ego?",
+            "left": "Teeny-weeny",
+            "right": "Can't fit in the room",
+            "questionChat": "How big is {0}'s ego?"
+        },
+        {
+            "question": "How talented an actor are you?",
+            "left": "Terrible!",
+            "right": "Award winning",
+            "questionChat": "How talented an actor is {0}?"
+        },
+        {
+            "question": "How forgiving are you?",
+            "left": "Grudge holder",
+            "right": "Very forgiving",
+            "questionChat": "How forgiving is {0}?"
+        },
+        {
+            "question": "How good are you with general knowledge?",
+            "left": "Terrible",
+            "right": "Quiz champ",
+            "questionChat": "How good is {0} with general knowledge?"
+        },
+        {
+            "question": "How much do you believe in ghosts?",
+            "left": "Not at all",
+            "right": "Absolutely",
+            "questionChat": "How much does {0} believe in ghosts?"
+        },
+        {
+            "question": "How superstitious are you?",
+            "left": "Not at all",
+            "right": "Extremely",
+            "questionChat": "How superstitious is {0}?"
+        },
+        {
+            "question": "How graceful are you?",
+            "left": "As a baby deer",
+            "right": "As a ballerina",
+            "questionChat": "How graceful is {0}?"
+        },
+        {
+            "question": "How agile are you?",
+            "left": "Not at all",
+            "right": "Like a ninja",
+            "questionChat": "How agile is {0}?"
+        },
+        {
+            "question": "How cautious are you?",
+            "left": "Totally reckless",
+            "right": "Very cautious",
+            "questionChat": "How cautious is {0}?"
+        },
+        {
+            "question": "How organised are you?",
+            "left": "Everything is scattered",
+            "right": "Everything is in order",
+            "questionChat": "How organised is {0}?"
+        },
+        {
+            "question": "How picky an eater are you?",
+            "left": "Very picky",
+            "right": "Will eat anything",
+            "questionChat": "How picky an eater is {0}?"
+        },
+        {
+            "question": "How much confrontation can you handle?",
+            "left": "Run away!",
+            "right": "Bring it on!",
+            "questionChat": "How much confrontation can {0} handle?"
+        },
+        {
+            "question": "How good are you at working in groups?",
+            "left": "Lone wolf",
+            "right": "Team player",
+            "questionChat": "How good is {0} at working in groups?"
+        },
+        {
+            "question": "How well can you cope with pranks?",
+            "left": "They're horrible",
+            "right": "Pranks are great fun!",
+            "questionChat": "How well can {0} cope with pranks?"
+        },
+        {
+            "question": "How eco friendly are you?",
+            "left": "Not at all",
+            "right": "Earth's best friend",
+            "questionChat": "How eco friendly is {0}?"
+        },
+        {
+            "question": "How good are you at remembering names?",
+            "left": "Terrible",
+            "right": "The best!",
+            "questionChat": "How good is {0} at remembering names?"
+        },
+        {
+            "question": "How patient are you?",
+            "left": "Totally impatient",
+            "right": "As a saint",
+            "questionChat": "How patient is {0}?"
+        }
+    ]
